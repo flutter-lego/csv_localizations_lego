@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   flutter_svg: #@add
   gap: #@add
   june_flow_util: #@add
@@ -21,7 +23,6 @@ dependencies:
   bot_toast: #@add
   csv_localizations: #@add
   flutter_localization: #@add
-  keyboard_attachable:
 
 dev_dependencies:
   flutter_test:
