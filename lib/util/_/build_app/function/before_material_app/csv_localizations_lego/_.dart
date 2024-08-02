@@ -7,7 +7,7 @@ import '../../../../../../main.dart';
 import '../../../../../config/csv_localizations_lego/_.dart';
 import '../../../../shared_params/_/material_app.dart';
 
-@ReadyBeforeMaterialApp()
+@ReadyBeforeMaterialApp(index: 1.6)
 Future<void> readyForCsvLocalizationsLego(BuildContext context) async {
   MaterialAppParams.localizationsDelegates = [
     // delegate from flutter_localization
